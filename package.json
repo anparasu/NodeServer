@@ -1,0 +1,29 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "For creating node.js restful api with express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anparasu/NodeServer.git"
+  },
+  "author": "Anparasu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anparasu/NodeServer/issues"
+  },
+  "homepage": "https://github.com/anparasu/NodeServer#readme",
+  "dependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3",
+    "nodemon": "^3.1.4"
+  }
+}
